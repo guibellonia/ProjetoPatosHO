@@ -37,7 +37,7 @@ header{
     box-shadow: 1px 0 5px #000;
     margin-bottom: 1.3em;
     font-size: 40px; 
-    letter-spacing: 15px;
+
 }
 
 
@@ -83,4 +83,18 @@ header{
 
 .p-2{
   margin-bottom: 3rem;
+}
+
+#Texto-inicio{
+  letter-spacing: 7px;
+}
+
+.carousel {
+  width: 37.5%;
+  position: absolute;
+}
+
+.container1{
+  position: relative;
+  left:17.5%;
 }
