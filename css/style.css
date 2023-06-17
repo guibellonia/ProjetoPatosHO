@@ -3,6 +3,11 @@
 font-family: 'Raleway', sans-serif;
 */
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body{
     font-family: 'Raleway', sans-serif !important;
     font-weight: 800;
@@ -125,7 +130,7 @@ header{
 }
 
 .btn-primary{
-  background-color: orange !important;
+  background-color: rgb(255, 117, 25) !important;
   border-color: black !important;
   border-radius: 15px !important;
 }
