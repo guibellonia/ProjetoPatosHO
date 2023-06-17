@@ -125,7 +125,7 @@ header{
 }
 
 .btn-primary{
-  background-color: orange !important;
+  background-color: rgb(255, 117, 25) !important;
   border-color: black !important;
   border-radius: 15px !important;
 }
@@ -136,7 +136,7 @@ header{
 }
 
 .dropdown-menu{
-  --bs-dropdown-link-active-bg: orange !important;
+  --bs-dropdown-link-active-bg: rgb(255, 117, 25) !important;
 }
 
 .img-fluid{
