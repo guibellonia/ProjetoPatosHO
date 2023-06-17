@@ -56,6 +56,8 @@ header{
     justify-content: space-between;
     align-items: center;
     max-width: 1920px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   
   .imgs {
@@ -68,16 +70,11 @@ header{
 
   .imgs:hover{
     opacity: 100%;
-    height: 19.6em;
+    transform: scale(1.02,1.02);
   }
 
 .rodape{
     margin-top: 5em;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 100rem;
 }
 
 .card{
@@ -108,7 +105,15 @@ header{
 
 .container1{
   position: absolute;
-  left: 16.25%;
+  left: 14.8%;
+  display: flex;
+  flex-direction: row;
+  max-width: 1920px;
+  padding-bottom: 5em;
+}
+.container2{
+  position: absolute;
+  left: 15.5%;
   display: flex;
   flex-direction: row;
   max-width: 1920px;
@@ -158,4 +163,83 @@ header{
 .objetivo{
   max-width: 500px;
   margin-bottom: 100px;
+}
+
+li{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.footer-container{
+
+  color: white;
+  background-color: rgb(255, 117, 25);
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  gap: .1vh;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 20px;
+
+}
+
+.links-footer{
+  color: white !important;
+}
+
+.titulo-footers{
+  font-family: 'Raleway', sans-serif !important;
+}
+
+.paginas-footer{
+  display: flex;
+  flex-direction: column;
+  max-height: 100%;
+}
+
+.info-footer{
+  display: flex;
+  flex-direction: column;
+}
+
+.copyright{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 117, 25);
+  color: rgb(255, 255, 255);
+}
+
+.sociais-footer{
+  display: flex;
+  flex-direction: column;
+}
+
+.soc-links{
+  max-height: 35px;
+}
+
+.soc-links{
+  -webkit-filter: invert(1);
+}
+
+.separator-footer{
+  width: 40vh;
+  height: 2px;
+  background-color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.slogan-footer{
+  max-width: 210px;
+}
+
+.container1{
+  padding-top: 50px;
 }
