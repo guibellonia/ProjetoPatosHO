@@ -143,3 +143,19 @@ header{
   height: 1599px !important;
   padding-left: 50px !important; 
 }
+
+.main-sobre{
+
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 250px;
+
+}
+
+.objetivo{
+  max-width: 500px;
+  margin-bottom: 100px;
+}
