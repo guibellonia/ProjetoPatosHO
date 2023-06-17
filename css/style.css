@@ -141,7 +141,7 @@ header{
 }
 
 .dropdown-menu{
-  --bs-dropdown-link-active-bg: orange !important;
+  --bs-dropdown-link-active-bg: rgb(255, 117, 25) !important;
 }
 
 .img-fluid{
